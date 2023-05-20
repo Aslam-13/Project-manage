@@ -8,7 +8,7 @@
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
     "esModuleInterop": true,
-    "module": "esnext",
+    "module": "CommonJS",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
@@ -19,12 +19,9 @@
         "name": "next"
       }
     ],
-    "paths": { 
-      "@/components/*": ["./components/*"],
-      "@/hooks/*": ["./hooks/*"],
+    "paths": {
       "@/lib/*": ["./lib/*"],
-      "@/styles/*": ["./styles/*"],
-      "@/prisma/*": ["./prisma/*"],
+      "@/components/*": ["./components/*"],
       "@/assets/*": ["./assets/*"]
     }
   },
